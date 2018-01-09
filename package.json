@@ -1,0 +1,25 @@
+{
+  "name": "ccrud",
+  "version": "1.0.0",
+  "description": "mongo express crud app",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./Server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kk223/NodeMongoCRUD.git"
+  },
+  "author": "kaushal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kk223/NodeMongoCRUD/issues"
+  },
+  "homepage": "https://github.com/kk223/NodeMongoCRUD#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9"
+  }
+}
