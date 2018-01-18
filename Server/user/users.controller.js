@@ -2,10 +2,10 @@ use strict
 
 const user = require('./author.entity');
 
-
-const createUser= function(username,password,email,name){
+														
+const createUser= function(user){
 	const promise = new Promise(function(resolve,reject){
-		author.save({username:'username',email:'eamil',name:'name'},function(err,res){
+		author.save({username:'user.username',email:'user.eamil',name:'user.name'},function(err,res){
 			if(err)
 				reject(err);
 			else 

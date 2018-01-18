@@ -2,7 +2,7 @@ use strict
 
 const user = require('./author.entity');
 
-// this function is to find or check for the existence of user details in our database
+
 const createAuthor= function(username,email,name){
 	const promise = new Promise(function(resolve,reject){
 		author.save({username:'username',email:'eamil',name:'name'},function(err,res){
